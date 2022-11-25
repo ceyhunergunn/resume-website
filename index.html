@@ -38,7 +38,7 @@
                             <a class="nav-link" href="#skills">skills.</a>
                         </li>
                         <li class="nav-item" id="nav-items">
-                            <a class="nav-link" href="#">projects.</a>
+                            <a class="nav-link" href="#projects">projects.</a>
                         </li>
                         <li class="nav-item" id="nav-items">
                             <a class="nav-link" href="#">experience & course.</a>
@@ -163,21 +163,56 @@
     </section>
 
     <section id="projects">
-        <h1 id="titles">Projects.</h1>
-        <h2>Resume Website</h2>
-        <p>shdfghasdgfhsdgf</p>
 
-        <h2>Object Detection Application for Visually Impaired People</h2>
-        <p>The application was developed with the dart language using Flutter. Objects were
-            identified and a data set was created. The model was trained. In the application,
-            objects were detected and voiced, and the visually impaired user was informed.
-        </p>
-        <h2>Entry-Exit Tracking with Mobile Application</h2>
-        <p>The application was developed with the dart language using Flutter. Faces were
-            introduced using a ready-made image processing algorithm. Entry-Exit tracking was
-            done.
-        </p>
+        <h1 id="title-project">Projects.</h1>
 
+        <div id="carouselControls" class="carousel slide" data-bs-ride="false">
+
+            <div class="carousel-inner" id="carousel-inner">
+      
+                <div class="carousel-item active">
+                    <h2  id="project-title">Resume Website</h2>
+                    <p id="project-desc">The application was developed with the HTML and CSS. 
+                        The project was developed with HTML and CSS. General layout set with HTML.
+                        A suitable color palette has been found for the project. The page was 
+                        designed and shaped with CSS. Responsive designs were made with Bootstrap.
+                    </p>
+                    <p style="font-size: 1.5rem;"><strong>Keywords: </strong> HTML, CSS, Bootstrap</p>
+                </div>
+      
+                <div class="carousel-item">
+                    <h2 id="project-title">Object Detection Application for Visually Impaired People</h2>
+                    <p id="project-desc">The application was developed with the dart language using Flutter. 
+                        Objects were identified and a data set was created. The model was trained. 
+                        In the application, objects were detected and voiced, and the visually impaired user was 
+                        informed.
+                    </p>
+                    <p style="font-size: 1.5rem;"><strong>Keywords: </strong>Flutter, Tensorflow, Object Detection</p>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 id="project-title">Entry-Exit Tracking with Mobile Application</h2>
+                    <p id="project-desc">The project was developed with the dart language using Flutter. Faces were
+                        introduced using a ready-made image processing algorithm. The introduced faces were saved in 
+                        the database. When a new face is entered, the database is checked and matched. Entry-Exit 
+                        tracking was done.
+                    </p>
+                    <p style="font-size: 1.5rem;"><strong>Keywords: </strong>Flutter, Tensorflow, Object Detection</p>
+                </div>
+      
+            </div>
+      
+            <button class="carousel-control-prev" id="np-icon" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+      
+            <button class="carousel-control-next" id="np-icon" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      
+          </div>
     </section>
 
     <section id="experience-course">

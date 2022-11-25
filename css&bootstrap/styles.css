@@ -81,28 +81,67 @@
 }
 
 #skill-row{
-    margin: 1rem 0;
+    margin: 3rem 0;
 }
 
 #skill-dtl{
     font-weight: 600;
-    
+    transition: 0.5s;
+
+}
+#skill-dtl:hover{
+    color: #2b7e55;
+    transition: 0.5s;
 }
 
 #skill-icon{
     color: #2b7e55;
     font-size: 3rem;
+    transition: 0.5s;
+}
+#skill-icon:hover{
+    color: #20583d;
+    transition: 0.5s;
 }
 
 #icon-lvl{
     color: #2b7e55;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+#icon-lvl:hover{
+    color: #20583d;
+    transition: 0.5s;
 }
 
 /* PROJECTS SECTION */
 
 #projects{
     text-align: center;
-    padding: 7% 15%;    
     background-color: #839788;
     color: white;
+}
+
+#title-project{
+    font-family: 'Dosis', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: left;
+    padding: 7% 15% 0 ;   
+}
+
+.carousel-item{
+    padding: 7% 15%;   
+}
+
+#project-title{
+    font-size: 3rem;
+    line-height: 1.75;
+    font-weight: 600;
+}
+
+#project-desc{
+    font-size: 2rem;
+    line-height: 1.75;
+    font-weight: 400;
 }
