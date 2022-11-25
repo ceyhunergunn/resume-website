@@ -1,5 +1,5 @@
 *{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'GFS Didot', serif;
 }
 
 /* Navigation Bar */
@@ -30,8 +30,8 @@
 /* ABOUT ME SECTION */
 
 #about{
-    background-color: #839788; /*#C6CCB2 #413C58 #2F2F2F #155B6B #2E6B64 #393E46*/
-    color: white; /* #A3C4BC #e6d25f */ 
+    background-color: #839788;
+    color: white;
 }
 
 .container{
@@ -39,7 +39,7 @@
 }
 
 #titles{
-   font-family: 'Dosis', sans-serif;
+    font-family: 'GFS Didot', serif;
     font-size: 4rem;
     font-weight: 900;
     margin-bottom: 10%;
@@ -123,7 +123,7 @@
 }
 
 #title-project{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'GFS Didot', serif;
     font-size: 4rem;
     font-weight: 900;
     text-align: left;
