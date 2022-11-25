@@ -40,7 +40,7 @@
 
 #titles{
    font-family: 'Dosis', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 900;
     margin-bottom: 10%;
     text-align: left;
@@ -124,7 +124,7 @@
 
 #title-project{
     font-family: 'Dosis', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 900;
     text-align: left;
     padding: 7% 15% 0 ;   
@@ -144,4 +144,51 @@
     font-size: 2rem;
     line-height: 1.75;
     font-weight: 400;
+}
+
+/* EXP&COURSE SECTION */
+
+#experience-course{
+    text-align: left;
+    padding: 7% 15%;    
+    line-height: 4rem;
+    background-color: #EEE0CB;
+}
+
+#exp-title{
+    font-size: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+#exp-desc{
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+#exp-icon{
+    color: black;
+    text-decoration: none;
+}
+
+/* CONTACT ME SECTION */
+
+#contact-me{
+    text-align: center;
+    background-color: #839788;
+    color: white;
+    padding: 7% 15%;   
+
+}
+
+#contact-me > a{
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#contact-me > p{
+    margin-top: 2rem;
 }
