@@ -30,8 +30,8 @@
 /* ABOUT ME SECTION */
 
 #about{
-    background-color: #393E46; /* #155B6B #2E6B64*/
-    color: white;
+    background-color: #839788; /*#C6CCB2 #413C58 #2F2F2F #155B6B #2E6B64 #393E46*/
+    color: white; /* #A3C4BC #e6d25f */ 
 }
 
 .container{
@@ -48,7 +48,7 @@
 
 #about-col{
     text-align: center;
-    padding-top: 8%;
+    padding-top: 7%;
 }
 
 #about-name{
@@ -76,7 +76,8 @@
 #skills{
     text-align: center;
     padding: 7% 15%;    
-    background-color: white;
+    background-color: #EEE0CB;
+    color: black;
 }
 
 #skill-row{
@@ -84,11 +85,24 @@
 }
 
 #skill-dtl{
-    font-weight: bold;
+    font-weight: 600;
     
 }
 
 #skill-icon{
-    color: #65CA8D;
+    color: #2b7e55;
     font-size: 3rem;
+}
+
+#icon-lvl{
+    color: #2b7e55;
+}
+
+/* PROJECTS SECTION */
+
+#projects{
+    text-align: center;
+    padding: 7% 15%;    
+    background-color: #839788;
+    color: white;
 }
