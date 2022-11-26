@@ -17,13 +17,21 @@
 
 #nav-items{
     padding: 0 1.1rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     transition: 0.5s;
 }
 
 #nav-items:hover{
     margin: 0 1.5rem;
     transition: 0.5s;
+}
+
+@media (max-width:991px) {
+    #nav-items{
+        padding: 0 1.1rem;
+        font-size: 2.1rem;
+        transition: 0.5s;
+    }
 }
 
 
